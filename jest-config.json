@@ -1,0 +1,13 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": "./",
+  "testRegex": ["(role).*.spec.ts$","./test/user/*"],
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "collectCoverageFrom": ["**/*.(t|j)s"],
+  "moduleDirectories": [".", "src", "../src", "./node_modules"],
+  "coverageDirectory": "./coverage",
+  "coveragePathIgnorePatterns": [".module.ts$", ".spec.ts$", "/dist*", "/coverage*"],
+  "testEnvironment": "node"
+}
